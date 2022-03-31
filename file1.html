@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+    <style>
+        body{
+            margin:0;
+    padding:0;
+    background: #ccc;
+    font-family:Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-image: url(image.png);
+            width: 100%;
+            min-height: 400px;
+            text-align: center;
+         }
+         .my-input{
+             padding-top: 150px;
+        }
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.card{
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid;
+    display: inline-block;
+}
+.navbar ul{
+   list-style:none;
+    padding-left:800px;
+    margin:0;  
+}
+.navbar li{
+    display:inline-block;
+    border:solid;
+}
+.navbar a{
+    text-decoration: none;
+    color:rebeccapurple;
+    width:100px;
+    display:block;
+    padding:25px 20px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:arial;
+    text-align:center;
+}
+.navbar a:hover{
+    background: #353640;
+}
+.right{
+    display:inline-block;
+}
+.left{
+    display: inline-block;
+}
+.side1{
+    float:left;
+}
+.side{
+        float:right;
+        margin-right: 350px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <ul>
+            <li><a href="login.html">login</a></li>
+        <li><a href="register.html">create an account</a></li>
+</ul>
+        <div class="my-input">
+            <select name="" id="">
+                <option value="">--Select city--</option>
+                <option value="Delhi" >Delhi</option>
+                <option value ="Mumbai">Mumbai</option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <input type="text" name="" id="" placeholder="search restaurant">
+        </div>
+    </header>
+    <div class="wrapper">
+        <h1>Quick searches</h1>
+        <p>Discover restaurant by type of meal</p>
+        <div class="side1"> <div class="card">
+            <div class="left">
+                <img src="image.png" width="100"/>
+            </div>
+            <div class="right">
+                <h2> Breakfast</h2>
+                <p>Start your day with breakfast</p>
+        </div>
+    </div><br/>
+    <div class="card">
+        <div class="left">
+            <img src="image.png" width="100"/>
+        </div>
+        <div class="right">
+            <h2> Breakfast</h2>
+            <p>Start your day with breakfast</p>
+    </div>
+</div></div>
+    <br/>
+    <div class="side">
+    <div class="card">
+        <div class="left">
+            <img src="image.png" width="100"/>
+        </div>
+        <div class="right">
+            <h2> Breakfast</h2>
+            <p>Start your day with breakfast</p>
+    </div>
+</div><br/> 
+<div class="card">
+    <div class="left">
+        <img src="image.png" width="100"/>
+    </div> 
+    <div class="right">
+        <h2> Breakfast</h2>
+        <p>Start your day with breakfast</p>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
